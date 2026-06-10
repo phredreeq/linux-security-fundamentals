@@ -16,7 +16,7 @@ on Linux systems.
 
 Most enterprise servers run Linux. Understanding
 how Linux works internally is not optional for
-SOC analysts — it is foundational.
+SOC analysts, it is foundational.
 
 ---
 
