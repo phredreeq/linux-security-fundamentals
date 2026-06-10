@@ -25,7 +25,7 @@ SOC analysts, it is foundational.
 ### The Directory Structure
 
 Linux has one single directory tree starting
-from root — written as /
+from root written as "/"
 
 Think of it like a hotel building:
 / = the entire hotel
@@ -37,7 +37,7 @@ Key security directories:
 |---|---|---|
 | /etc | All configuration files | SSH config, user accounts, passwords |
 | /var/log | All system logs | Evidence of attacks and activity |
-| /tmp | Temporary files — world writable | Attackers drop malware here |
+| /tmp | Temporary files; world writable | Attackers drop malware here |
 | /root | Root user home directory | Highest privilege files |
 | /home | Regular user directories | SSH keys, personal files |
 | /bin | Essential system commands | Core utilities |
@@ -69,7 +69,7 @@ ls -la /tmp
 ### Critical Security Files
 
 /etc/passwd — user account information:
-fred:x:1000:1000:Fred Agufenwa:/home/fred:/bin/bash
+fred:x:1000:1000:Fred:/home/fred:/bin/bash
 
 Fields: username:password:UID:GID:name:home:shell
 
@@ -243,8 +243,7 @@ Attack tools installed at 3AM = active compromise
 ### Why Real-Time Log Forwarding to Splunk Matters
 
 Attackers delete local logs to cover tracks.
-If logs are forwarded to Splunk in real time —
-deleting local logs is useless.
+If logs are forwarded to Splunk in real time, deleting local logs is useless.
 Splunk already has every event.
 This is why Day 13 pfSense log forwarding is critical.
 
