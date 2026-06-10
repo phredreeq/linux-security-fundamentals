@@ -246,8 +246,7 @@ Attackers delete local logs to cover tracks.
 If logs are forwarded to Splunk in real time —
 deleting local logs is useless.
 Splunk already has every event.
-This is why Day 13 pfSense log forwarding
-and Day 17 Ubuntu log forwarding are critical.
+This is why Day 13 pfSense log forwarding is critical.
 
 ---
 
